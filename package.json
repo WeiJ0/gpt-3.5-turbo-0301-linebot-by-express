@@ -1,0 +1,21 @@
+{
+  "name": "gpt-3.5-turbo-0301 linebot by express",
+  "version": "1.0.0",
+  "description": "linebot whit openai api by express and deploy to vercel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [],
+  "author": "weijie",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "openai": "3.2.1"
+  }
+}
